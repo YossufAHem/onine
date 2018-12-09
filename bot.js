@@ -27,7 +27,22 @@ client.on('message', msg => {
     }
 }
 })
-client.on('ready', () => {
+client1.on('ready', () => {
+    client1.channels.get("497896774967492616").join(); 
+    });
+
+client1.on('message', msg => {
+
+    if (msg.content == '$join') {
+        if (msg.member.voiceChannel) {
+
+     if (msg.member.voiceChannel.joinable) {
+         msg.member.voiceChannel.join().then(msg.react('white_check_mark'));
+     }
+    }
+}
+})
+client1.on('ready', () => {
     client.channels.get("497896774967492616").join(); 
     });
 
