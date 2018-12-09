@@ -46,6 +46,38 @@ client1.on('ready', () => {
     client1.channels.get("497896774967492616").join(); 
     });
 
+
+client2.on('message', msg => {
+
+    if (msg.content == '$join') {
+        if (msg.member.voiceChannel) {
+
+     if (msg.member.voiceChannel.joinable) {
+         msg.member.voiceChannel.join().then(msg.react('white_check_mark'));
+     }
+    }
+}
+})
+client2.on('ready', () => {
+    client2.channels.get("497896774967492616").join(); 
+    });
+
+client3.on('message', msg => {
+
+    if (msg.content == '$join') {
+        if (msg.member.voiceChannel) {
+
+     if (msg.member.voiceChannel.joinable) {
+         msg.member.voiceChannel.join().then(msg.react('white_check_mark'));
+     }
+    }
+}
+})
+client3.on('ready', () => {
+    client3.channels.get("497896774967492616").join(); 
+    });
+
+
 client.login(process.env.BOT_TOKEN);
 client1.login(process.env.BOT_TOKEN1);
 client2.login(process.env.BOT_TOKEN2);
