@@ -6,7 +6,7 @@ client.on('ready', () => {
 
   
 client.on('message', msg => {
-  if (msg.content === '$ping') {
+  if (msg.content === 'هلا') {
    msg.reply(' :rose:  :joy:  عزيزي الكريم يوسف ليس موجود الحين اتنظر شوي لان يوسف في مشوار https://cdn.pg.sa/FXUxrKyI4g.gif');
   }
 });
