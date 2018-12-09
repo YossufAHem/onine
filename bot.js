@@ -7,8 +7,8 @@ client.on('ready', () => {
   
 client.on('message', msg => {
   if (msg.content === '$ping') {
-   msg.reply('**عزيزي الكريم يوسف ليس موجود الحين اتنظر شوي لان يوسف في مشوار
-ازا مو مصدق اكتب هلا **https://cdn.pg.sa/FXUxrKyI4g.gif');
+   msg.reply('عزيزي الكريم يوسف ليس موجود الحين اتنظر شوي لان يوسف في مشوار
+ازا مو مصدق اكتب هلا https://cdn.pg.sa/FXUxrKyI4g.gif');
   }
 });
 
