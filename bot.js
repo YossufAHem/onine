@@ -1,21 +1,20 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
+const client1 = new Discord.Client();
+const client2 = new Discord.Client();
+const client3 = new Discord.Client();
+
 client.on('ready', () => {
-  console.log('bot online ');
+   console.log(`----------------`);
+   console.log(`Credit Farmm - Script By : YossiF `);
+   console.log(`----------------`);
+   console.log(`Loadinng`);
+   console.log(`Loadinng.`);
+   console.log(`Loadinng..`);
+   console.log(`Loadinng...`);
+   console.log(`This Bots Online ' `);
+   console.log(`----------------`);
 });
-
-client1.on('ready', () => {
-  console.log('bot online ');
-});
-
-client2.on('ready', () => {
-  console.log('bot online ');
-});
-
-client3.on('ready', () => {
-  console.log('bot online ');
-});
-
 
 client.on('message', msg => {
 
