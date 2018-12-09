@@ -4,6 +4,18 @@ client.on('ready', () => {
   console.log('bot online ');
 });
 
+client1.on('ready', () => {
+  console.log('bot online ');
+});
+
+client2.on('ready', () => {
+  console.log('bot online ');
+});
+
+client3.on('ready', () => {
+  console.log('bot online ');
+});
+
 
 client.on('message', msg => {
 
