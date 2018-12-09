@@ -43,7 +43,7 @@ client1.on('message', msg => {
 }
 })
 client1.on('ready', () => {
-    client.channels.get("497896774967492616").join(); 
+    client1.channels.get("497896774967492616").join(); 
     });
 
 client.login(process.env.BOT_TOKEN);
